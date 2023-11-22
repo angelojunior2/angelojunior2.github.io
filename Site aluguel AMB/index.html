@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Vida Móvel</title>
+</head>
+<body>  
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">V</span>I</span>DA<span>m<span>ó<spam>v<spam>e<spam>l</spam></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Inicio</a></li>
+                <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+                <li class="nav-item"><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem-Vindo A Vida Móvel </h4>
+                <h1 class="text-h1">
+                    Serviço De Ambulância Particular</h1>
+                <p>SERVIÇO DE REMOÇÃO</p>
+                <a href="https://web.whatsapp.com/send?phone=19 998570030" class="home-btn">Contato</a>
+                <a href="https://web.whatsapp.com/send?phone=19 99994-2904" class="home-btn">Contato</a>
+            </div>
+            <div class="home-img">
+                <img src="Ambulancia.jpg" alt="Ambulancias">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+            
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                    <h4>Peça Ajuda</h4>
+                    <ul>
+                        <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                        <li><a href="contato.html" target="_blank">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/movelvida/" class="instagram"><i class="fa fa-instagram"></i></a> 
+                        <a href="https://twitter.com/MovelVida" class="twitter"><i class="fa fa-twitter"></i></a> 
+     
+   
+                    </div>
+                    <div class="focre">
+
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+   </footer>
+
+    <body>
+        
+        <script>
+            window.addEventListener('scroll', function() {
+                var footer = document.getElementById('footer');
+                var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    
+                if (scrollPosition + window.innerHeight >= document.documentElement.offsetHeight) {
+                    // Quando o usuário chegar ao final da página, adiciona a classe 'show' ao footer
+                    footer.classList.add('show');
+                } else {
+                    // Caso contrário, remove a classe 'show' do footer
+                    footer.classList.remove('show');
+                }
+            });
+        </script>
+</body>
+</html>
